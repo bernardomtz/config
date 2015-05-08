@@ -1,3 +1,0 @@
-alias aa
-alias al
-
