@@ -11,7 +11,7 @@ sudo apt-get install -y ruby-full
 sudo apt-get install -y virtualbox
 sudo apt-get install -y unity-webapps-gmail
 sudo apt-get install -y zlib1g-dev # Needed to nokogiri gem
-
+sudo apt-get install -y openjdk-7-jdk
 # intalls ruby gems
 gem install nokogiri
 

@@ -4,5 +4,6 @@ lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
 lg  = !"git lg1"
 s   = status
 co  = checkout
+b   = branch
 [user]
 	email = bernardo.mtz@gmail.com

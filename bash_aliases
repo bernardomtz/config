@@ -4,4 +4,6 @@ alias al="source ~/.bash_aliases"
 alias github-config="git config --global user.email 'bernardo.mtz@gmail.com'"
 alias nt="gnome-terminal"
 alias mytask="vim ~/Documents/task"
+alias gocode="cd ~/code"
+alias gogym="cd ~/code/code_problems/"
 
