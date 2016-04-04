@@ -1,17 +1,13 @@
 #!/bin/bash
 
-alias aa="vim ~/.bash_aliases"
-alias al="source ~/.bash_aliases"
-
-for custom_alias_file in $( find ~/alias-conf -name "bash_alias*" ); do
-  echo "$custom_alias_file"
-  source "$custom_alias_file"
-done
+alias aa="vim $HOME/.bash_aliases"
+alias al="source $HOME/.bash_aliases"
 
 
 #alias github-config="git config --global user.email 'bernardo.mtz@gmail.com'"
 alias nt="gnome-terminal"
-alias mytask="vim ~/Documents/task"
-alias gocode="cd ~/code"
-alias gogym="cd ~/code/code_problems/"
+alias mytask="vim $HOME/Documents/task"
+alias gocode="cd $HOME/code"
+alias gogym="cd $HOME/code/code_problems/"
+
 
